@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Roboto:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2, p {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.button {
+    appearance: none;
+    border: 1px solid #E83F57;
+    background-color: #E83F57;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: #3DE07E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+}
+
+header aside {
+    align-self: flex-start;
+    margin: 2rem;
+}
+
+header h1 {
+    margin-top: auto;
+    font-size: 6.25rem;
+}
+
+header img {
+    margin-top: auto;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 4rem 0rem 4rem 0rem;
+}
+
+main .card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    color: #ffffff;
+    margin-bottom: 4rem;
+}
+
+main .card h2 {
+    font-size: 2rem;
+}
+
+main .card p {
+    line-height: 140%;
+}
+
+main .big-card {
+    max-width: 484px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+main .big-card figure {
+    width: 100%;
+    margin: 0;
+}
+
+main .big-card img {
+    width: 100%;
+}
+
+main .big-card section {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+main .big-card section button {
+    padding: 1rem 2rem;
+}
+
+footer {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+footer .footer-links {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+}
+
+footer nav .link {
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+footer .social-media .icons {
+    display: flex;
+}
+
+footer .social-media .icons img {
+    margin-right: 0.5rem;
+}
