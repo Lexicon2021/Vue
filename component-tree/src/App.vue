@@ -1,15 +1,14 @@
 <template>
-  
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <PortfolioVue title="Image Gallery" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PortfolioVue from './components/portoflio/Portfolio.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PortfolioVue
   }
 }
 </script>
